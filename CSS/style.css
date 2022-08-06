@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Mouse Memoirs', sans-serif;
+    /* font-size: 2em; radgan font-size ukve aris 2em, qveda 5.625 gazrdis 5.625jer 2ems da gaxdeba 11mde */
+    /* tu gamoviyenebt rem-s em-is magivrad (root em) parents daaignorebs da 5.625 iqneba chveulebriv */
+}
+
+.header {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.header>h1 {
+    margin: 50px auto 0 auto;
+    padding: 10px;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625em;
+    /* 100 % - 16px. 90px - 562.5%.    1em = 16px  5.625em = 90px */
+    /* margin: 0 auto 0 auto !important;
+    width: 10%;
+    roca width shevcvalet text-align amaze agar moqmedebs amitom centering vuketebt marginit */
+    color: #66BFBF;
+    line-height: 2;
+}
+
+.header>h2 {
+    margin-top: 0 auto 0 auto;
+    /* 40 / 16 = 2.5*/
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    font-size: 1.2rem;
+}
+
+a {
+    color: #11999E;
+}
+
+a:hover {
+    color: #EAF6F6;   
+}
+
+p {
+    font-size: 1.2em;
+    color: #40514E;
+}
+
+hr {
+    color: #EAF6F6;
+    border-style: dotted;
+    width: 4%;
+    border-width: 10px;
+    border-top: 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.text {
+    text-decoration: underline;
+}
+
+.earth {
+    position: relative;
+    width: 15%;
+    height: 15%;
+    margin: 0 auto 0 auto;
+}
+
+.cloudbot {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    left: 250px;
+    bottom: 250px;
+}
+
+.cloudtop {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    right: 250px;
+    top: 80px;
+}
+
+.middle>.profile>#MyImage {
+    width: 200px;
+    height: 200px;
+    padding-top: 10px;
+    margin: 0 auto 0 auto;
+}
+
+.middle>.skills>.skill-row>#MySkill1 {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.middle>.skills>.skill-row>#MySkill2 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.middle>.skills>.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    /* margins and paddings work clockwise - top, right, bot, left*/
+}
+
+.middle>.skills>.skill-row>h3, .middle>.skills>.skill-row>p {
+    text-align: left;
+}
+
+.middle>.skills>.skill-row>p {
+    line-height: 2;
+}
+
+.bottom {
+    background-color: #66BFBF;
+}
+
+.bottom > p {
+    color: #EAF6F6;
+}
+
+.middle > .contact-me {
+    margin-bottom: 60px;
+    line-height: 3;
+}
+
+.bottom {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.bottom > .footer-link {
+    font-size: 1.5em;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.btn {
+background: #2e9ce6;
+background-image: -webkit-linear-gradient(top, #2e9ce6, #3aabf2);
+background-image: -moz-linear-gradient(top, #2e9ce6, #3aabf2);
+background-image: -ms-linear-gradient(top, #2e9ce6, #3aabf2);
+background-image: -o-linear-gradient(top, #2e9ce6, #3aabf2);
+background-image: linear-gradient(to bottom, #2e9ce6, #3aabf2);
+-webkit-border-radius: 8;
+-moz-border-radius: 8;
+border-radius: 8px;
+font-family: 'Montserrat', sans-serif;
+color: #ffffff;
+font-size: 20px;
+padding: 10px 20px 10px 20px;
+text-decoration: none;
+}
+
+.btn:hover {
+background: #00060a;
+background-image: -webkit-linear-gradient(top, #00060a, #000305);
+background-image: -moz-linear-gradient(top, #00060a, #000305);
+background-image: -ms-linear-gradient(top, #00060a, #000305);
+background-image: -o-linear-gradient(top, #00060a, #000305);
+background-image: linear-gradient(to bottom, #00060a, #000305);
+text-decoration: none;
+}
